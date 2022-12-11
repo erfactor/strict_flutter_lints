@@ -1,5 +1,4 @@
 name: strict_flutter_lints
-description: A rigorous collection of flutter linter rules that's gonna make your codebase crystal clear.
 repository: https://github.com/erfactor/strict_flutter_lints
 version: 1.0.0
 
