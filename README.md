@@ -1,7 +1,5 @@
 # strict_flutter_lints
 
-A rigorous collection of flutter linter rules that will make your codebase crystal clear.
-
 Carefully selected rules from:
 - https://dart-lang.github.io/linter/lints
 - https://dartcodemetrics.dev/docs/rules
