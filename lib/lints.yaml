@@ -23,7 +23,10 @@ dart_code_metrics:
     - avoid-duplicate-exports: true
     - avoid-dynamic: true
     - avoid-global-state: true
-    - avoid-ignoring-return-values: true
+    - avoid-ignoring-return-values:
+        exclude:
+          - integration_test/**
+          - test/**
     - avoid-missing-enum-constant-in-map: true
     - avoid-nested-conditional-expressions:
         acceptable-level: 2
@@ -49,6 +52,7 @@ dart_code_metrics:
     - prefer-commenting-analyzer-ignores: true
     - prefer-conditional-expressions: true
     - prefer-correct-identifier-length:
+        exceptions: ['id']
         min-identifier-length: 3
         max-identifier-length: 30
     - prefer-correct-test-file-name: true
